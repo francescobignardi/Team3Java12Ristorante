@@ -10,3 +10,6 @@ carbonara
 SECONDI PIATTI
 Tagliata
 Bistecca
+
+DOLCI
+pannacotta

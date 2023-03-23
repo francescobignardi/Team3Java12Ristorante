@@ -13,8 +13,13 @@ Boscaiola 10,00€
 Tagliatelle con ragù di maialino dei Nebrodi 16,00€
 
 SECONDI PIATTI
-Tagliata
-Bistecca
+
+Tagliata 22,00€
+Bistecca 25,00€
+Coda alla vaccinara 20€
+Cotoletta alla milanese 14 €
+Cotoletta alla bolognese 16€
+
 
 DOLCI
 pannacotta

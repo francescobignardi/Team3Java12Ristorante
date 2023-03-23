@@ -4,6 +4,12 @@ Carnivoro
 
 BEVANDE
 
+Acqua naturale 2,00€
+Acqua frizzante 2,00€
+Birra 4,00€
+Vino 8,00€
+CocaCola 3,00€
+
 PRIMI PIATTI
 
 Carbonara 11,00€

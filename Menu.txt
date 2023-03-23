@@ -5,7 +5,12 @@ Carnivoro
 BEVANDE
 
 PRIMI PIATTI
-carbonara
+
+Carbonara 11,00€
+Amatriciana 10,00€
+Lasagne al ragù 6,00€
+Boscaiola 10,00€
+Tagliatelle con ragù di maialino dei Nebrodi 16,00€
 
 SECONDI PIATTI
 Tagliata

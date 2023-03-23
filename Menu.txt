@@ -6,3 +6,7 @@ BEVANDE
 
 PRIMI PIATTI
 carbonara
+
+SECONDI PIATTI
+Tagliata
+Bistecca

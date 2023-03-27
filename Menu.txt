@@ -10,6 +10,14 @@ Birra 4,00€
 Vino 8,00€
 CocaCola 3,00€
 
+ANTIPASTI
+
+Patatine fritte €4,00
+Misto caldo €6,00
+Bruschette al pomodoro €5,00
+Tagliere di salumi e formaggi €12,00
+Caponata €5,50
+
 PRIMI PIATTI
 
 Carbonara 11,00€

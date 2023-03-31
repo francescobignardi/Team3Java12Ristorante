@@ -28,5 +28,12 @@ public class Main {
         secondiPiatti.setDishName("Cotoletta");
         secondiPiatti.setPrice(8.50);
         SecondiPiatti.printer(secondiPiatti);
+
+        Dolci listaDolci= new Dolci();
+        listaDolci.print("Pannacotta"+3)
+        listaDolci.print("Babà"+4)
+        listaDolci.print("Zeppole"+2.50)
+        listaDolci.print("Pastiera"+5)
+        listaDolci.print("Sfogliatella"+4.50)
     }
 }

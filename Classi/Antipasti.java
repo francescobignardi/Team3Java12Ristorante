@@ -4,7 +4,9 @@ public class Antipasti {
     private String nomePiatto;
     private double prezzoPiatto;
 
-    public Antipasti(){
+    public Antipasti(String nomePiatto, double prezzoPiatto){
+        this.nomePiatto = nomePiatto;
+        this.prezzoPiatto= prezzoPiatto;
     }
 
     public String getNomePiatto() {

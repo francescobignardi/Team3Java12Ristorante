@@ -1,3 +1,5 @@
+package Classi;
+
 public class Antipasti {
     private String nomePiatto;
     private double prezzoPiatto;

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         PrimoPiatto carbonara= new PrimoPiatto("Carbonara", 11.1234557);
+
+        //TODO pensate a cosa serve a nulla perchè noi dobbiamo ragionare sempre con le istanze degli oggetti
+        // provate a creare due oggetti
         PrimoPiatto.print(carbonara);
         carbonara.printer();
 
@@ -41,11 +44,11 @@ public class Main {
 
 
 
-        Classi.Dolci listaDolci= new Dolci();
-        listaDolci.print("Pannacotta"+3);
-        listaDolci.print("Babà"+4);
-        listaDolci.print("Zeppole"+2.50);
-        listaDolci.print("Pastiera"+5);
-        listaDolci.print("Sfogliatella"+4.50);
+        Dolci listaDolci= new Dolci();
+        listaDolci.print("Pannacotta",3);
+        listaDolci.print("Babà",4);
+        listaDolci.print("Zeppole",2.50);
+        listaDolci.print("Pastiera",5);
+        listaDolci.print("Sfogliatella",4.50);
     }
 }

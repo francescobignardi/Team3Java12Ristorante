@@ -46,4 +46,8 @@ public class SecondiPiatti {
        System.out.println(secondiPiatti.dishName + "  -->  " + secondiPiatti.price + " €");
 
    }
+
+   public void print(String dishName, double price){
+       System.out.println(dishName + " -->  " + price + " €");
+   }
 }

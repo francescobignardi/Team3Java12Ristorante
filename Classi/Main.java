@@ -8,12 +8,14 @@ public class Main {
         PrimoPiatto.print(carbonara);
         carbonara.printer();
 
-        Antipasti antipasti = new Antipasti();
-        antipasti.printerMethod("Patatine fritte", 4.00);
+
+
+        Antipasti antipasti = new Antipasti("Patatine fritte", 4.00);
+        System.out.println(antipasti.getNomePiatto() + " " + antipasti.getPrezzoPiatto());
         antipasti.printerMethod("Misto caldo", 6.00);
         antipasti.printerMethod("Bruschette al pomodoro", 5.00);
         antipasti.printerMethod("Tagliere di salumi e formaggi", 12.00);
-        antipasti.printerMethod("Caponata",5.00);
+        antipasti.printerMethod("Caponata",5.50);
 
 
         SecondiPiatti secondiPiatti = new SecondiPiatti("Bistecca", 18.50);

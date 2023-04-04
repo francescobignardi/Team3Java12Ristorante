@@ -30,20 +30,6 @@ public class Main {
         secondipiatti1.print("Cotoletta", 8.10);
         System.out.println("");
 
-        // Sistema tramite .set
-        //SecondiPiatti secondiPiatti = new SecondiPiatti("Bistecca", 18.50);
-        //SecondiPiatti.printer(secondiPiatti);
-        //secondiPiatti.setDishName("Arrosticini");
-        //secondiPiatti.setPrice(12.50);
-        //SecondiPiatti.printer(secondiPiatti);
-        //secondiPiatti.setDishName("Coda alla vaccinara");
-        //secondiPiatti.setPrice(15.50);
-        //SecondiPiatti.printer(secondiPiatti);
-        //secondiPiatti.setDishName("Cotoletta");
-        //secondiPiatti.setPrice(8.50);
-        //SecondiPiatti.printer(secondiPiatti);
-
-
 
         Dolci listaDolci= new Dolci();
         listaDolci.print("Pannacotta",3);

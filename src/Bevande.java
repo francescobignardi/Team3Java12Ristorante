@@ -1,4 +1,4 @@
-package Classi;
+package src;
 
 public class Bevande {
 
@@ -11,26 +11,28 @@ public class Bevande {
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public double getPrice() {
+
         return price;
     }
 
     public void setPrice(double price) {
+
         this.price = price;
     }
 
-    public static void print(Bevande bevande){
-        System.out.println(bevande.name + " € " + bevande.price);
-    }
 
-    public void printer(){
+    public void print(){
+
         System.out.println(name + " € " + price);
     }
 }

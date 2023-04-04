@@ -1,29 +1,29 @@
 package src;
 public class Dolci {
     //TODO rivedere la struttura base delle vostre class
-    private String nome;
-    private double prezzo;
+    private String name;
+    private double price;
 
     public Dolci(){
     }
 
     public String getNomeDolce() {
-        return nome;
+        return name;
     }
 
-    public void setNomeDolce(String nome) {
-        this.nome = nome;
+    public void setNomeDolce(String name) {
+        this.name = name;
     }
 
     public double getPrezzoDolce() {
-        return prezzo;
+        return price;
     }
 
-    public void setPrezzoDolce(double prezzo) {
-        this.prezzo = prezzo;
+    public void setPrezzoDolce(double price) {
+        this.price = price;
     }
 
-    public void print(String nome, double prezzo) {
-        System.out.println(nome + " € " + prezzo);
+    public void print(String name, double price) {
+        System.out.println(name + " € " + price);
     }
 }

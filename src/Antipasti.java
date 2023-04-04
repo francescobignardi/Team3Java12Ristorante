@@ -24,7 +24,7 @@ public class Antipasti {
         this.price = price;
     }
 
-    //TODO il nome deve essere parlante, printDetail?
+
     public void print(String name, double price) {
         System.out.println(name + " € " + price);
     }

@@ -1,3 +1,4 @@
+package src;
 
 import java.util.ArrayList;
 import src.SecondiPiatti;
@@ -6,18 +7,16 @@ public class Main {
     public static void main(String[] args) {
         PrimoPiatto carbonara= new PrimoPiatto("Carbonara", 11.1234557);
 
-        //TODO pensate a cosa serve a nulla perchè noi dobbiamo ragionare sempre con le istanze degli oggetti
-        // provate a creare due oggetti
-        PrimoPiatto.print(carbonara);
-        carbonara.printer();
+
+        carbonara.print();
 
 
         Antipasti antipasti = new Antipasti("Patatine fritte", 4.00);
-        System.out.println(antipasti.getNomePiatto() + " " + antipasti.getPrezzoPiatto());
-        antipasti.printerMethod("Misto caldo", 6.00);
-        antipasti.printerMethod("Bruschette al pomodoro", 5.00);
-        antipasti.printerMethod("Tagliere di salumi e formaggi", 12.00);
-        antipasti.printerMethod("Caponata",5.50);
+        System.out.println(antipasti.getName() + " " + antipasti.getPrice());
+        antipasti.print("Misto caldo", 6.00);
+        antipasti.print("Bruschette al pomodoro", 5.00);
+        antipasti.print("Tagliere di salumi e formaggi", 12.00);
+        antipasti.print("Caponata",5.50);
 
 
 

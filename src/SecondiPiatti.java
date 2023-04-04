@@ -2,28 +2,23 @@ package src;
 
 public class SecondiPiatti {
 
-    // instance variables
-    private String dishName;
+
+    private String name;
     private double price;
 
 
-    // constructor
 
-    //TODO non serve
-    public SecondiPiatti(){
+    public SecondiPiatti() {
 
-    }
-    public SecondiPiatti(String dishName, double price) {
-
-        this.dishName = dishName;
+        this.name = name;
         this.price = price;
 
     }
 
 
     // GETTER
-    public String getDishName() {
-        return dishName;
+    public String getName() {
+        return name;
     }
 
     public double getPrice() {
@@ -33,8 +28,8 @@ public class SecondiPiatti {
 
     // SETTER
 
-    public void setDishName(String dishName) {
-        this.dishName = dishName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setPrice(double price) {
@@ -43,12 +38,9 @@ public class SecondiPiatti {
 
 
 
-   public static void printer(SecondiPiatti secondiPiatti){
-       System.out.println(secondiPiatti.dishName + "  -->  " + secondiPiatti.price + " €");
 
-   }
 
-   public void print(String dishName, double price){
-       System.out.println(dishName + " -->  " + price + " €");
+   public void print(String name, double price){
+       System.out.println(name + " -->  " + price + " €");
    }
 }

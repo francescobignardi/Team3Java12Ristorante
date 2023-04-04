@@ -35,7 +35,7 @@ public class PrimoPiatto {
 //Other methods
 
     //Printer
-    public void printer() {
+    public void print() {
         System.out.println(name + "  € " + price);
     }
 

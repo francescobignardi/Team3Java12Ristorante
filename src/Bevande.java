@@ -30,7 +30,6 @@ public class Bevande {
         this.price = price;
     }
 
-
     public void print(){
 
         System.out.println(name + " € " + price);

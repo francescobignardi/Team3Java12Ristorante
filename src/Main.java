@@ -1,4 +1,4 @@
-
+package src;
 import java.util.ArrayList;
 
 public class Main {
@@ -12,11 +12,11 @@ public class Main {
 
 
         Antipasti antipasti = new Antipasti("Patatine fritte", 4.00);
-        System.out.println(antipasti.getNomePiatto() + " " + antipasti.getPrezzoPiatto());
-        antipasti.printerMethod("Misto caldo", 6.00);
-        antipasti.printerMethod("Bruschette al pomodoro", 5.00);
-        antipasti.printerMethod("Tagliere di salumi e formaggi", 12.00);
-        antipasti.printerMethod("Caponata",5.50);
+        System.out.println(antipasti.getName() + " " + antipasti.getPrice());
+        antipasti.print("Misto caldo", 6.00);
+        antipasti.print("Bruschette al pomodoro", 5.00);
+        antipasti.print("Tagliere di salumi e formaggi", 12.00);
+        antipasti.print("Caponata",5.50);
 
 
 

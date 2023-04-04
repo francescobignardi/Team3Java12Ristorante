@@ -1,32 +1,31 @@
-
-
+package src;
 public class Antipasti {
-    private String nomePiatto;
-    private double prezzoPiatto;
+    private String name;
+    private double price;
 
-    public Antipasti(String nomePiatto, double prezzoPiatto){
-        this.nomePiatto = nomePiatto;
-        this.prezzoPiatto= prezzoPiatto;
+    public Antipasti(String name, double price){
+        this.name = name;
+        this.price= price;
     }
 
-    public String getNomePiatto() {
-        return nomePiatto;
+    public String getName() {
+        return name;
     }
 
-    public void setNomePiatto(String nomePiatto) {
-        this.nomePiatto = nomePiatto;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public double getPrezzoPiatto() {
-        return prezzoPiatto;
+    public double getPrice() {
+        return price;
     }
 
-    public void setPrezzoPiatto(double prezzoPiatto) {
-        this.prezzoPiatto = prezzoPiatto;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     //TODO il nome deve essere parlante, printDetail?
-    public void printerMethod(String nomePiatto, double prezzoPiatto) {
-        System.out.println(nomePiatto + " € " + prezzoPiatto);
+    public void print(String name, double price) {
+        System.out.println(name + " € " + price);
     }
 }

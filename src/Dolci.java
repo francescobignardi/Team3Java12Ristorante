@@ -1,6 +1,6 @@
 package src;
 public class Dolci {
-    //TODO rivedere la struttura base delle vostre class
+
     private String name;
     private double price;
 

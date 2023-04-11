@@ -31,6 +31,7 @@ public class Main {
 
 
         Dolci listaDolci= new Dolci("gelato",10);
+        System.out.println(listaDolci.getNomeDolce()+" "+ listaDolci.getPrezzoDolce());
         listaDolci.print("Pannacotta",3);
         listaDolci.print("Babà",4);
         listaDolci.print("Zeppole",2.50);

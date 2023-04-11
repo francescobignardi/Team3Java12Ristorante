@@ -5,6 +5,8 @@ public class Dolci {
     private double price;
 
     public Dolci(){
+        this.name=name;
+        this.price=price;
     }
 
     public String getNomeDolce() {

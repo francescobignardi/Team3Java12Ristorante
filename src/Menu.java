@@ -8,6 +8,10 @@ public class Menu {
     private String tipoMenu;
 
     private ArrayList<src.Antipasti> antipastiList;
+    private ArrayList<PrimoPiatto> primiPiattiList;
+    private ArrayList<SecondiPiatti> secondiPiattiList;
+    private ArrayList<Dolci> dolciList;
+    private ArrayList<Bevande> bevandeList;
 
     //TODO ognuno di voi dovrà aggiungere una lista con metodi add e remove e un metodo printMenu per stampare
     // tutte le portate quindi un for su ogni lista
@@ -42,6 +46,24 @@ public class Menu {
 
     public void setTipoMenu(String tipoMenu) {
         this.tipoMenu = tipoMenu;
+    }
+
+    public void printMenu(){
+      for(Antipasti antipasti : antipastiList){
+          System.out.println(antipasti);
+      }
+        for(PrimoPiatto primoPiatto : primiPiattiList){
+            System.out.println(primoPiatto);
+        }
+        for(SecondiPiatti secondiPiatti : secondiPiattiList){
+            System.out.println(secondiPiatti);
+        }
+        for(Dolci dolci : dolciList){
+            System.out.println(dolciList);
+        }
+        for(Bevande bevande : bevandeList){
+            System.out.println(bevandeList);
+        }
     }
 
 

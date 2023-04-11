@@ -4,7 +4,7 @@ public class Dolci {
     private String name;
     private double price;
 
-    public Dolci(){
+    public Dolci(String name, double price){
         this.name=name;
         this.price=price;
     }

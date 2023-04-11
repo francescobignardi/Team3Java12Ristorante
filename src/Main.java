@@ -30,7 +30,7 @@ public class Main {
         System.out.println("");
 
 
-        Dolci listaDolci= new Dolci();
+        Dolci listaDolci= new Dolci("gelato",10);
         listaDolci.print("Pannacotta",3);
         listaDolci.print("Babà",4);
         listaDolci.print("Zeppole",2.50);

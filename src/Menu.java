@@ -65,6 +65,36 @@ public class Menu {
             System.out.println(bevandeList);
         }
     }
+    public void addAntipasto(Antipasti antipasto){
+        antipastiList.add(antipasto);
+    }
+    public void removeAntipasto(Antipasti antipasto){
+        antipastiList.remove(antipasto);
+    }
+    public void addPrimoPiatto(PrimoPiatto primoPiatto){
+        primiPiattiList.add(primoPiatto);
+    }
+    public void removePrimoPiatto(PrimoPiatto primoPiatto){
+        primiPiattiList.remove(primoPiatto);
+    }
+    public void addSecondoPiatto(SecondiPiatti secondoPiatto){
+        secondiPiattiList.add(secondoPiatto);
+    }
+    public void removeSecondoPiatto(SecondiPiatti secondoPiatto){
+        secondiPiattiList.remove(secondoPiatto);
+    }
+    public void addDolce(Dolci dolce){
+        dolciList.add(dolce);
+    }
+    public void removeDolce(Dolci dolce){
+        dolciList.remove(dolce);
+    }
+    public void addBevanda(Bevande bevanda){
+        bevandeList.add(bevanda);
+    }
+    public void removeBevanda(Bevande bevanda){
+        bevandeList.remove(bevanda);
+    }
 
 
 }

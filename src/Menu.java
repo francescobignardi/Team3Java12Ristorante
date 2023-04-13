@@ -48,53 +48,66 @@ public class Menu {
         this.tipoMenu = tipoMenu;
     }
 
-    public void printMenu(){
-      for(Antipasti antipasti : antipastiList){
-          System.out.println(antipasti);
-      }
-        for(PrimoPiatto primoPiatto : primiPiattiList){
+    public void printMenu() {
+        for (Antipasti antipasti : antipastiList) {
+            System.out.println(antipasti);
+        }
+        for (PrimoPiatto primoPiatto : primiPiattiList) {
             System.out.println(primoPiatto);
         }
-        for(SecondiPiatti secondiPiatti : secondiPiattiList){
+        for (SecondiPiatti secondiPiatti : secondiPiattiList) {
             System.out.println(secondiPiatti);
         }
-        for(Dolci dolci : dolciList){
+        for (Dolci dolci : dolciList) {
             System.out.println(dolciList);
         }
-        for(Bevande bevande : bevandeList){
+        for (Bevande bevande : bevandeList) {
             System.out.println(bevandeList);
         }
     }
-    public void addAntipasto(Antipasti antipasto){
+
+    public void addAntipasto(Antipasti antipasto) {
         antipastiList.add(antipasto);
     }
-    public void removeAntipasto(Antipasti antipasto){
+
+    public void removeAntipasto(Antipasti antipasto) {
         antipastiList.remove(antipasto);
     }
-    public void addPrimoPiatto(PrimoPiatto primoPiatto){
+
+    public void addPrimoPiatto(PrimoPiatto primoPiatto) {
         primiPiattiList.add(primoPiatto);
     }
-    public void removePrimoPiatto(PrimoPiatto primoPiatto){
+
+    public void removePrimoPiatto(PrimoPiatto primoPiatto) {
         primiPiattiList.remove(primoPiatto);
     }
-    public void addSecondoPiatto(SecondiPiatti secondoPiatto){
+
+    public void addSecondoPiatto(SecondiPiatti secondoPiatto) {
         secondiPiattiList.add(secondoPiatto);
     }
-    public void removeSecondoPiatto(SecondiPiatti secondoPiatto){
+
+    public void removeSecondoPiatto(SecondiPiatti secondoPiatto) {
         secondiPiattiList.remove(secondoPiatto);
     }
-    public void addDolce(Dolci dolce){
+
+    public void addDolce(Dolci dolce) {
         dolciList.add(dolce);
     }
-    public void removeDolce(Dolci dolce){
+
+    public void removeDolce(Dolci dolce) {
         dolciList.remove(dolce);
     }
-    public void addBevanda(Bevande bevanda){
+
+    public void addBevanda(Bevande bevanda) {
         bevandeList.add(bevanda);
     }
-    public void removeBevanda(Bevande bevanda){
+
+    public void removeBevanda(Bevande bevanda) {
         bevandeList.remove(bevanda);
     }
 
+    public void aggiungiDolci(Dolci dolci) {
+        dolciList.add(dolci);
+    }
 
 }

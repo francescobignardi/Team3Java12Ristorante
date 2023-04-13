@@ -109,5 +109,4 @@ public class Menu {
     public void aggiungiDolci(Dolci dolci) {
         dolciList.add(dolci);
     }
-
 }

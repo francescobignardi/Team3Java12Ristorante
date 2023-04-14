@@ -3,8 +3,12 @@
 import java.util.ArrayList;
 
 public class Menu {
+
+    //TODO nome
     private String menu;
     private String chef;
+
+    //TODO questo diventa un enum : tipoEnum
     private String tipoMenu;
 
     private ArrayList<Antipasti> antipastiList;
@@ -54,7 +58,7 @@ public class Menu {
 
     public void printMenu() {
         for (Antipasti antipasti : antipastiList) {
-            System.out.println(antipasti);
+            antipasti.print();
         }
         for (PrimoPiatto primoPiatto : primiPiattiList) {
             System.out.println(primoPiatto);
@@ -110,6 +114,7 @@ public class Menu {
         bevandeList.remove(bevanda);
     }
 
+    //TODO stesse minacce  :)
     @Override
     public String toString() {
         return "Menu{" +

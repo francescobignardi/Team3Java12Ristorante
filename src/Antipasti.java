@@ -1,6 +1,9 @@
 
 
 public class Antipasti {
+
+
+    //TODO su tutte le classi vanno messe dei field aggiuntivi, kmZero ad esempio
     private String name;
     private double price;
 
@@ -25,11 +28,13 @@ public class Antipasti {
         this.price = price;
     }
 
-    public void print(String name, double price) {
-        System.out.println(name + " € " + price);
+    //TODO rivedete insieme il concetto di variabili di stato
+    public void print() {
+        System.out.println(this.name + " € " + this.price);
 
     }
 
+    //TODO ti buco le ruote delle macchina se usi il toString per stampare
     @Override
     public String toString() {
         return "Antipasti{" + "name='" + name + '\'' + ", price=" + price + '}';

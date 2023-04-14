@@ -21,6 +21,10 @@ public class Menu {
         this.chef = chef;
         this.tipoMenu = tipoMenu;
         this.antipastiList = new ArrayList<>();
+        this.primiPiattiList = new ArrayList<>();
+        this.secondiPiattiList = new ArrayList<>();
+        this.bevandeList = new ArrayList<>();
+        this.dolciList = new ArrayList<>();
     }
 
     public String getMenu() {
@@ -59,10 +63,10 @@ public class Menu {
             System.out.println(secondiPiatti);
         }
         for (Dolci dolci : dolciList) {
-            System.out.println(dolciList);
+            System.out.println(dolci);
         }
         for (Bevande bevande : bevandeList) {
-            System.out.println(bevandeList);
+            System.out.println(bevande);
         }
     }
 
@@ -106,7 +110,14 @@ public class Menu {
         bevandeList.remove(bevanda);
     }
 
-    public void aggiungiDolci(Dolci dolci) {
-        dolciList.add(dolci);
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "antipastiList=" + antipastiList +
+                ", primiPiattiList=" + primiPiattiList +
+                ", secondiPiattiList=" + secondiPiattiList +
+                ", dolciList=" + dolciList +
+                ", bevandeList=" + bevandeList +
+                '}';
     }
 }

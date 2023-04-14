@@ -30,8 +30,13 @@ public class Bevande {
         this.price = price;
     }
 
-    public void print(){
+    public void print() {
 
         System.out.println(name + " € " + price);
+    }
+
+    @Override
+    public String toString() {
+        return "Bevande{" + "name='" + name + '\'' + ", price=" + price + '}';
     }
 }

@@ -1,12 +1,13 @@
 package src;
+
 public class Dolci {
 
     private String name;
     private double price;
 
-    public Dolci(String name, double price){
-        this.name=name;
-        this.price=price;
+    public Dolci(String name, double price) {
+        this.name = name;
+        this.price = price;
     }
 
     public String getNomeDolce() {
@@ -27,5 +28,10 @@ public class Dolci {
 
     public void print(String name, double price) {
         System.out.println(name + " € " + price);
+    }
+
+    @Override
+    public String toString() {
+        return "Dolci{" + "name='" + name + '\'' + ", price=" + price + '}';
     }
 }

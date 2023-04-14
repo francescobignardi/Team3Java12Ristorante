@@ -39,4 +39,8 @@ public class PrimoPiatto {
         System.out.println(name + "  € " + price);
     }
 
+    @Override
+    public String toString() {
+        return "PrimoPiatto{" + "name='" + name + '\'' + ", price=" + price + '}';
+    }
 }

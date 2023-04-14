@@ -3,19 +3,16 @@ package src;
 public class SecondiPiatti {
 
 
-
     private String name;
     private double price;
 
 
-
-    public SecondiPiatti() {
+    public SecondiPiatti(String name, double price) {
 
         this.name = name;
         this.price = price;
 
     }
-
 
 
     public String getName() {
@@ -27,8 +24,6 @@ public class SecondiPiatti {
     }
 
 
-
-
     public void setName(String name) {
         this.name = name;
     }
@@ -38,8 +33,12 @@ public class SecondiPiatti {
     }
 
 
+    public void print(String name, double price) {
+        System.out.println(name + " -->  " + price + " €");
+    }
 
-   public void print(String name, double price){
-       System.out.println(name + " -->  " + price + " €");
-   }
+    @Override
+    public String toString() {
+        return "SecondiPiatti{" + "name='" + name + '\'' + ", price=" + price + '}';
+    }
 }

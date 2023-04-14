@@ -1,8 +1,3 @@
-package src;
-
-import java.util.ArrayList;
-
-import src.SecondiPiatti;
 
 public class Main {
     public static void main(String[] args) {

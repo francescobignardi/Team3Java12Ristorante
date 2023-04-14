@@ -7,7 +7,7 @@ public class Menu {
     private String chef;
     private String tipoMenu;
 
-    private ArrayList<src.Antipasti> antipastiList;
+    private ArrayList<Antipasti> antipastiList;
     private ArrayList<PrimoPiatto> primiPiattiList;
     private ArrayList<SecondiPiatti> secondiPiattiList;
     private ArrayList<Dolci> dolciList;

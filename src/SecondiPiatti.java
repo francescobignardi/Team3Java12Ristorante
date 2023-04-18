@@ -1,34 +1,5 @@
-
-
-public class SecondiPiatti {
-    private String name;
-    private double price;
-
+public class SecondiPiatti extends  Portata{
     public SecondiPiatti(String name, double price) {
-        this.name = name;
-        this.price = price;
-    }
-
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public void print(String name, double price) {
-        System.out.println(name + " -->  " + price + " €");
-    }
-
-    @Override
-    public String toString() {
-        return "SecondiPiatti{" + "name='" + name + '\'' + ", price=" + price + '}';
+        super(name, price);
     }
 }
